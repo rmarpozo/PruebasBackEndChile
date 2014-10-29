@@ -1,0 +1,27 @@
+2014-10-22 16:35:15,892 
+new MockServerClient()
+        .when(
+                request()
+                        .withMethod("POST")
+                        .withURL("http://localhost:8080/")
+                        .withPath("/")
+                        .withHeaders(
+                                new Header("Accept-Encoding", "gzip,deflate"),
+                                new Header("Content-Type", "text/xml;charset=UTF-8"),
+                                new Header("SOAPAction", ""http://ws.cdyne.com/WeatherWS/GetCityWeatherByZIP""),
+                                new Header("Content-Length", "327"),
+                                new Header("Host", "localhost:8080"),
+                                new Header("User-Agent", "Apache-HttpClient/4.1.1 (java 1.5)")
+                        )
+                        .withBody(new StringBody("<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:weat=\"http://ws.cdyne.com/WeatherWS/\">\n   <soapenv:Header/>\n   <soapenv:Body>\n      <weat:GetCityWeatherByZIP>\n         <!--Optional:-->\n         <weat:ZIP>10001</weat:ZIP>\n      </weat:GetCityWeatherByZIP>\n   </soapenv:Body>\n</soapenv:Envelope>", Body.Type.STRING)),
+                Times.once()
+        )
+        .thenRespond(
+                response()
+                        .withStatusCode(200)
+                        .withHeaders(
+                                new Header("Content-Type", "text/xml; charset=utf-8"),
+                                new Header("Server", "Jetty(6.1.26)")
+                        )
+                        .withBody("<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n   <soap:Body>\n      <GetCityWeatherByZIPResponse xmlns=\"http://ws.cdyne.com/WeatherWS/\">\n         <GetCityWeatherByZIPResult>\n            <Success>true</Success>\n            <ResponseText>--- TEST --- City Found</ResponseText>\n            <State>NY</State>\n            <City>New York</City>\n            <WeatherStationCity>White Plains</WeatherStationCity>\n            <WeatherID>15</WeatherID>\n            <Description>N/A</Description>\n            <Temperature>63</Temperature>\n            <RelativeHumidity>87</RelativeHumidity>\n            <Wind>E7</Wind>\n            <Pressure>29.97S</Pressure>\n            <Visibility/>\n            <WindChill/>\n            <Remarks/>\n         </GetCityWeatherByZIPResult>\n      </GetCityWeatherByZIPResponse>\n   </soap:Body>\n</soap:Envelope>")
+        );

@@ -1,0 +1,5 @@
+<dataset>
+	<HISTORICDATA id="id1" forecastDate="2014-01-01" forecast="Rain" city="Madrid"/>
+	<HISTORICDATA id="id2" forecastDate="2014-02-02" forecast="Sunny" city="New York"/>
+	<HISTORICDATA id="testId" forecastDate="2014-01-01" forecast="Rain" city="Santiago"/>
+</dataset>

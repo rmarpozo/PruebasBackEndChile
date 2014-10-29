@@ -1,0 +1,75 @@
+2014-10-28 09:07:22,493 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 09:10:40,556 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 09:11:41,182 ERROR [main] org.dbunit.assertion.DbUnitAssert [DbUnitAssert.java:374] junit.framework.ComparisonFailure: row count (table=HISTORICDATA) expected:<[1]> but was:<[2]>
+2014-10-28 09:11:43,134 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 09:13:21,896 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 10:37:53,003 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 10:38:27,607 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 10:39:51,291 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 10:40:30,768 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 10:41:29,721 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:01:16,672 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:15:31,139 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:36:33,154 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:37:18,189 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:39:47,376 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:40:27,820 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:41:23,057 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:43:17,125 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:45:55,261 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:47:45,198 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:48:12,746 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 11:52:31,037 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 15:39:57,414 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 15:48:01,635 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 15:53:43,848 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 15:56:29,380 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 15:56:58,287 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:00:08,735 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:00:57,486 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:07:34,679 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:10:11,827 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:17:50,924 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:24:13,243 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:38:26,518 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:45:58,861 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:46:46,264 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:48:41,152 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:49:21,873 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:49:23,646 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 2 for table HISTORICDATA (global line number is 1). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:49:23,647 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 3 for table HISTORICDATA (global line number is 2). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:49:47,324 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:49:49,580 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 2 for table HISTORICDATA (global line number is 1). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:49:49,580 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 3 for table HISTORICDATA (global line number is 2). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:50:57,080 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:50:58,951 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 2 for table HISTORICDATA (global line number is 1). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:50:58,952 WARN [main] o.d.dataset.xml.FlatXmlProducer [FlatXmlProducer.java:316] Extra columns (id,forecastDate) on line 3 for table HISTORICDATA (global line number is 2). Those columns will be ignored.
+	Please add the extra columns to line 1, or use a DTD to make sure the value of those columns are populated or specify 'columnSensing=true' for your FlatXmlProducer.
+	See FAQ for more details.
+2014-10-28 16:51:39,466 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:57:41,358 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:57:43,035 ERROR [main] org.dbunit.assertion.DbUnitAssert [DbUnitAssert.java:400] junit.framework.ComparisonFailure: column count (table=HISTORICDATA, expectedColCount=4, actualColCount=2) expected:<[[city, forecast, forecastDate, id]]> but was:<[[CITY, FORECAST]]>
+2014-10-28 16:59:53,391 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 16:59:55,511 ERROR [main] org.dbunit.assertion.DbUnitAssert [DbUnitAssert.java:374] junit.framework.ComparisonFailure: row count (table=HISTORICDATA) expected:<[2]> but was:<[3]>
+2014-10-28 17:01:44,275 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:02:09,387 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:02:34,902 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:03:00,076 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:03:29,354 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:04:29,087 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:08:30,071 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:08:59,643 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:18:09,495 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:19:26,582 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:40:59,699 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-28 17:42:40,234 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084

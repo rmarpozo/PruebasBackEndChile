@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<beans:bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <beans:property name="location" value="classpath:url-ws.properties" />
+    </beans:bean>
+   
+    <beans:bean id="weatherPort" class="org.springframework.remoting.jaxws.JaxWsPortProxyFactoryBean">
+        <beans:property name="serviceInterface" value="com.cdyne.ws.weatherws.WeatherSoap" />
+        <beans:property name="wsdlDocumentUrl" value="classpath:wsdl/Weather.wsdl" />  
+        <beans:property name="namespaceUri" value="http://ws.cdyne.com/WeatherWS/" />
+        <beans:property name="serviceName" value="Weather" />
+        <beans:property name="portName" value="WeatherSoap" />
+        <beans:property name="endpointAddress" value="${endpoint}" />
+        
+	</beans:bean>
+
+</beans:beans>

@@ -1,0 +1,4 @@
+<dataset>
+	<HISTORICDATA forecast="Rain" city="Madrid" />
+	<HISTORICDATA forecast="Rain" city="New York"/>
+</dataset>

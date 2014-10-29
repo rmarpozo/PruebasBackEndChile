@@ -1,0 +1,6 @@
+2014-10-29 10:45:57,291 INFO [Thread-2] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-29 12:16:12,546 INFO [Thread-2] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-29 14:48:17,534 INFO [Thread-2] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-29 14:50:29,807 INFO [Thread-2] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-29 14:51:04,937 INFO [Thread-2] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-29 14:53:45,347 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084

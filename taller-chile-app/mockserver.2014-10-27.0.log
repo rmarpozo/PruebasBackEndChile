@@ -1,0 +1,86 @@
+2014-10-27 10:14:58,003 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 10:15:22,473 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:08:17,771 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:13:00,644 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:13:50,407 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:15:21,319 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:25:51,098 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:32:13,012 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:39:24,362 ERROR [main] o.d.d.s.AbstractBatchStatement [AbstractBatchStatement.java:54] getConnection(): 
+java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.jdbc.JDBCConnection.<init>(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.jdbc.JDBCDriver.getConnection(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.jdbc.JDBCDriver.connect(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[na:1.7.0_72]
+	at java.sql.DriverManager.getConnection(DriverManager.java:187) ~[na:1.7.0_72]
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:173) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:164) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:153) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:119) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:224) ~[spring-jdbc-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at com.sun.proxy.$Proxy14.createStatement(Unknown Source) ~[na:na]
+	at org.dbunit.database.statement.AbstractBatchStatement.<init>(AbstractBatchStatement.java:50) ~[dbunit-2.5.0.jar:na]
+	at org.dbunit.database.statement.SimpleStatement.<init>(SimpleStatement.java:49) [dbunit-2.5.0.jar:na]
+	at org.dbunit.database.statement.PreparedStatementFactory.createBatchStatement(PreparedStatementFactory.java:57) [dbunit-2.5.0.jar:na]
+	at org.dbunit.operation.DeleteAllOperation.execute(DeleteAllOperation.java:85) [dbunit-2.5.0.jar:na]
+	at org.dbunit.operation.CompositeOperation.execute(CompositeOperation.java:79) [dbunit-2.5.0.jar:na]
+	at com.github.springtestdbunit.DbUnitRunner.setupOrTeardown(DbUnitRunner.java:162) [spring-test-dbunit-1.1.0.jar:na]
+	at com.github.springtestdbunit.DbUnitRunner.beforeTestMethod(DbUnitRunner.java:60) [spring-test-dbunit-1.1.0.jar:na]
+	at com.github.springtestdbunit.DbUnitTestExecutionListener.beforeTestMethod(DbUnitTestExecutionListener.java:160) [spring-test-dbunit-1.1.0.jar:na]
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:358) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:na]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:na]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174) [spring-test-3.2.10.RELEASE.jar:3.2.10.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197) [.cp/:na]
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Connection refused
+	at org.hsqldb.ClientConnection.openConnection(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.ClientConnection.initConnection(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	at org.hsqldb.ClientConnection.<init>(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	... 41 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_72]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_72]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_72]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_72]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_72]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_72]
+	at java.net.Socket.connect(Socket.java:528) ~[na:1.7.0_72]
+	at java.net.Socket.<init>(Socket.java:425) ~[na:1.7.0_72]
+	at java.net.Socket.<init>(Socket.java:208) ~[na:1.7.0_72]
+	at org.hsqldb.server.HsqlSocketFactory.createSocket(Unknown Source) ~[hsqldb-2.3.2.jar:2.3.2]
+	... 44 common frames omitted
+2014-10-27 17:39:47,114 ERROR [main] org.dbunit.database.DatabaseDataSet [DatabaseDataSet.java:286] Table 'HISTORIC_DATA' not found in tableMap=org.dbunit.dataset.OrderedTableNameMap[_tableNames=[], _tableMap={}, _caseSensitiveTableNames=false]
+2014-10-27 17:39:49,312 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:55:15,909 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:58:25,245 ERROR [main] org.dbunit.database.DatabaseDataSet [DatabaseDataSet.java:286] Table 'HISTORIC_DATA' not found in tableMap=org.dbunit.dataset.OrderedTableNameMap[_tableNames=[DATABASECHANGELOG, DATABASECHANGELOGLOCK, HISTORICDATA], _tableMap={HISTORICDATA=null, DATABASECHANGELOGLOCK=null, DATABASECHANGELOG=null}, _caseSensitiveTableNames=false]
+2014-10-27 17:58:27,233 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 17:59:16,610 WARN [main] o.d.dataset.AbstractTableMetaData [AbstractTableMetaData.java:166] Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'HSQL Database Engine' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2014-10-27 17:59:18,538 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:01:10,935 WARN [main] o.d.dataset.AbstractTableMetaData [AbstractTableMetaData.java:166] Potential problem found: The configured data type factory 'class org.dbunit.dataset.datatype.DefaultDataTypeFactory' might cause problems with the current database 'HSQL Database Engine' (e.g. some datatypes may not be supported properly). In rare cases you might see this message because the list of supported database products is incomplete (list=[derby]). If so please request a java-class update via the forums.If you are using your own IDataTypeFactory extending DefaultDataTypeFactory, ensure that you override getValidDbProducts() to specify the supported database products.
+2014-10-27 18:01:12,932 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:19:15,496 INFO [Thread-3] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:23:32,537 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:24:47,321 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:26:26,032 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:29:19,811 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:30:06,943 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084
+2014-10-27 18:31:40,712 INFO [Thread-4] o.mockserver.mockserver.MockServer [MockServer.java:52] Starting MockServer on serverPort 8084

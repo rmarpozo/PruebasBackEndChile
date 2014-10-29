@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetCityWeatherByZIPResponse xmlns="http://ws.cdyne.com/WeatherWS/">
+         <GetCityWeatherByZIPResult>
+            <Success>true</Success>
+            <ResponseText>--- TEST --- City Found</ResponseText>
+            <State>NY</State>
+            <City>New York</City>
+            <WeatherStationCity>White Plains</WeatherStationCity>
+            <WeatherID>15</WeatherID>
+            <Description>N/A</Description>
+            <Temperature>63</Temperature>
+            <RelativeHumidity>87</RelativeHumidity>
+            <Wind>E7</Wind>
+            <Pressure>29.97S</Pressure>
+            <Visibility/>
+            <WindChill/>
+            <Remarks/>
+         </GetCityWeatherByZIPResult>
+      </GetCityWeatherByZIPResponse>
+   </soap:Body>
+</soap:Envelope>
